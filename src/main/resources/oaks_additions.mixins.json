@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "oakbricks.oaks_additions",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "common.mixin.CreeperEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

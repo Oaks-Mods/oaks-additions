@@ -1,0 +1,7 @@
+{
+  "parent": "oaks_additions:block/door_top",
+  "textures": {
+    "top": "oaks_additions:block/windowed_oak_door_top",
+    "bottom": "minecraft:block/oak_door_top"
+  }
+}

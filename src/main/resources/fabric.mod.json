@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "oaks_additions",
+  "version": "${version}",
+  "name": "oaks_additions",
+  "description": "A mod i made that adds random stuff, for 1.17.1 and later",
+  "authors": [
+    "OakBricks"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/oaks_additions/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "oakbricks.oaks_additions.common.OaksAdditions"
+    ],
+    "client": [
+      "oakbricks.oaks_additions.client.OaksAdditionsClient"
+    ]
+  },
+  "mixins": [
+    "oaks_additions.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.2",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
