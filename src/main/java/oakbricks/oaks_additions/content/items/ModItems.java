@@ -9,7 +9,7 @@ import oakbricks.oaks_additions.common.OaksAdditions;
 import static oakbricks.oaks_additions.common.OaksAdditions.MODID;
 
 public class ModItems {
-    public static final Item GLASS_SHARD = new Item(new FabricItemSettings().group(OaksAdditions.ITEM_GROUP).maxDamage(4).maxCount(16));
+    public static final Item GLASS_SHARD = new Item(new FabricItemSettings().group(OaksAdditions.ITEM_GROUP).maxCount(16));
 
     public static final void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(MODID, "glass_shard"), GLASS_SHARD);

@@ -23,8 +23,6 @@ public class ModBlocks {
             Registry.register(Registry.ITEM, new Identifier(MODID, "glass_door"), new BlockItem(GLASS_DOOR, new FabricItemSettings().group(OaksAdditions.ITEM_GROUP)));
         }
         if (CONFIG.windowedDoorsAndTrapDoorsEnabled) {
-            Registry.register(Registry.BLOCK, new Identifier(MODID, "glass_door"), GLASS_DOOR);
-            Registry.register(Registry.ITEM, new Identifier(MODID, "glass_door"), new BlockItem(GLASS_DOOR, new FabricItemSettings().group(OaksAdditions.ITEM_GROUP)));
             Registry.register(Registry.BLOCK, new Identifier(MODID, "windowed_oak_door"), WINDOWED_OAK_DOOR);
             Registry.register(Registry.ITEM, new Identifier(MODID, "windowed_oak_door"), new BlockItem(WINDOWED_OAK_DOOR, new FabricItemSettings().group(OaksAdditions.ITEM_GROUP)));
             Registry.register(Registry.BLOCK, new Identifier(MODID, "windowed_oak_trapdoor"), WINDOWED_OAK_TRAPDOOR);
